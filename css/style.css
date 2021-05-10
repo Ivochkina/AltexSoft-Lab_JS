@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: beige;
+  padding: 25px;
+}
+
+.box {
+  /*background-color: #f3f3f3;*/
+  display: flex;
+  /*justify-content: center;*/
+  /*align-items: end;*/
+  /*flex-direction: column;*/
+  margin-top: 20px;
+}
+
+.box__select {
+  width: 300px;
+  height: 40px;
+  font-size: 25px;
+  margin-right: 30px;
+  background-color: bisque;
+  border: solid 3px rebeccapurple;
+}
+
+.box__result {
+  padding: 15px;
+  background-color: burlywood;
+  color: blue;
+  width: 400px;
+  height: 400px;
+  font-size: 25px;
+  border: 3px solid black;
+  text-align: center;
+  border-radius: 10px;
+}

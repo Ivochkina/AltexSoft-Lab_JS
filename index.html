@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Task</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <section class="box">
+      <select id="letterSelector" class="box__select" onchange="renderResult()">
+        <option>choose a letter</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+      <p id="result" class="box__result">Get result</p>
+    </section>
+
+    <script id="getJson" type="application/json" src="js/list.json"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
